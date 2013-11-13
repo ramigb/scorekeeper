@@ -1,0 +1,66 @@
+#score_container{		
+}
+
+#score_table{		
+	text-align: center;	
+	width:100%;
+}
+
+#number_of_players{
+	margin-top:8px;
+}
+
+#score_table tfoot, #score_table thead{
+	background:rgb(252, 248, 210);
+}
+
+.separator{
+	float:left;
+	clear:both;
+	height:1px;
+	width:100%;
+	border-bottom:5px black;
+}
+
+.score_input{
+	font-size:1.5em;
+	cursor: pointer;
+}
+
+.add_score_input{
+	font-size:1.5em;
+	cursor: pointer;
+	padding:5px;
+}
+
+.numbers_keypad{
+	position: absolute;
+	top: 0;
+	left:0;	
+	width:130px;
+	height:125px;
+	overflow: hidden;
+	background: black;
+	display: none;
+	border-radius: 5px;
+}
+
+.numbers_keypad a{
+	font-size:1.5em;
+	text-decoration: none;
+	float:left;	
+	margin:10px;
+	color:white;
+}
+
+.score_total{
+	font-size:1.6em;
+}
+
+td[data-player-number="1"],td[data-player-number="3"]{
+	background:#FFFFCC;	
+}
+
+td[data-player-number="2"],td[data-player-number="4"]{
+	background:#FFF5AD
+}
