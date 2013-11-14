@@ -6,7 +6,7 @@ Scorekeeper is a score bored and calculator for those who are lazy or prefer to 
 
 ####Features
 - Responsive -thanks to TBS- (tested on Android).
-- Minimal non cluttered design.
+- Minimal uncluttered design.
 - Accepts negative values.
 - Has it's own numpad.
 - Supports 2 to 4 players.
