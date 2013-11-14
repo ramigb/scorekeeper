@@ -1,3 +1,9 @@
+/**
+*	ScoreKeeper - This thing works.
+*	@author Rami GB
+*	@email  rami.g.b@gmail.com
+*/
+
 var keyPad;
 var numOfPlayers = 2;
 
