@@ -54,7 +54,7 @@ function initBind(){
 	$('.player_name').bind('click',function(){
 		name = prompt('Name');
 		
-		if(name.length > 0){
+		if(name.size > 0){
 			$(this).text(name);	
 		}else{
 			return;
